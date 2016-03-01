@@ -12,9 +12,26 @@ namespace bozejko_lab1
 {
     public partial class Form2 : Form
     {
+        Calculations calc;
         public Form2()
         {
             InitializeComponent();
+            calc = new Calculations();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int n = Convert.ToInt32(tbN.Text);
+            List <int> liczby = calc.primes(n);
+            
+            string result = null;
+
+            foreach (int i in liczby)
+	        {
+                result += i.ToString() + ", ";
+	        }
+            
+            tbResult.Text = (result);
         }
     }
 }

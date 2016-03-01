@@ -79,5 +79,37 @@ namespace bozejko_lab1
         {
             return x - this.floor(x);
         }
+
+        public List<int> primes(int n)
+        {
+            bool[] numbers = new bool[n+1];
+
+            for (int i = 2; i <= n; i++) numbers[i] = true;
+
+            int max = (int)Math.Sqrt(n);
+
+            for (int i = 2; i <= max; i++)
+            {
+                if (numbers[i])
+                {
+                    int j = i + i;
+                    while (j <= n)
+                    {
+                        numbers[j] = false;
+                        j += i;
+                    }
+                }
+            }
+
+            List<int> primes = new List<int>();
+
+            for (int i = 2; i <= n; i++)
+            {
+                if (numbers[i]) primes.Add(i);
+            }
+
+            return primes;
+
+        }
     }
 }

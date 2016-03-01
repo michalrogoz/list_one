@@ -31,7 +31,7 @@ namespace bozejko_lab1
             lbFractional.Text = calc.frac(x).ToString();
 
             int xx = Convert.ToInt32(x);
-            if (!String.IsNullOrEmpty(tbY.Text))
+            if (!String.IsNullOrEmpty(tbY.Text)) // liczy modlugo gdy jest wpisane cos w textbox
             {
                 int y = Convert.ToInt32(tbY.Text);
                 label4.Text = xx + " mod " + y;
