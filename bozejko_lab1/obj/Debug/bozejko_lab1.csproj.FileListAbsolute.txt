@@ -7,3 +7,15 @@ c:\users\mic\documents\visual studio 2015\Projects\bozejko_lab1\bozejko_lab1\obj
 c:\users\mic\documents\visual studio 2015\Projects\bozejko_lab1\bozejko_lab1\obj\Debug\bozejko_lab1.csproj.GenerateResource.Cache
 c:\users\mic\documents\visual studio 2015\Projects\bozejko_lab1\bozejko_lab1\obj\Debug\bozejko_lab1.exe
 c:\users\mic\documents\visual studio 2015\Projects\bozejko_lab1\bozejko_lab1\obj\Debug\bozejko_lab1.pdb
+C:\Users\Michałek\Source\Repos\list_one\bozejko_lab1\bin\Debug\bozejko_lab1.exe.config
+C:\Users\Michałek\Source\Repos\list_one\bozejko_lab1\obj\Debug\bozejko_lab1.exe
+C:\Users\Michałek\Source\Repos\list_one\bozejko_lab1\obj\Debug\bozejko_lab1.pdb
+C:\Users\Michałek\Source\Repos\list_one\bozejko_lab1\bin\Debug\bozejko_lab1.exe
+C:\Users\Michałek\Source\Repos\list_one\bozejko_lab1\bin\Debug\bozejko_lab1.pdb
+C:\Users\Michałek\Source\Repos\list_one\bozejko_lab1\obj\Debug\bozejko_lab1.csprojResolveAssemblyReference.cache
+C:\Users\Michałek\Source\Repos\list_one\bozejko_lab1\obj\Debug\bozejko_lab1.Form1.resources
+C:\Users\Michałek\Source\Repos\list_one\bozejko_lab1\obj\Debug\bozejko_lab1.Properties.Resources.resources
+C:\Users\Michałek\Source\Repos\list_one\bozejko_lab1\obj\Debug\bozejko_lab1.csproj.GenerateResource.Cache
+C:\Users\Michałek\Source\Repos\list_one\bozejko_lab1\obj\Debug\bozejko_lab1.Form1_1.resources
+C:\Users\Michałek\Source\Repos\list_one\bozejko_lab1\obj\Debug\bozejko_lab1.Form2.resources
+C:\Users\Michałek\Source\Repos\list_one\bozejko_lab1\obj\Debug\bozejko_lab1.Form3.resources

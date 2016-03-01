@@ -12,27 +12,71 @@ namespace bozejko_lab1
 {
     public partial class Form1 : Form
     {
-        Calculations calc;
+        
 
         public Form1()
         {
-            InitializeComponent();
-            calc = new Calculations();
+            InitializeComponent();            
         }
 
-        private void button1_Click(object sender, EventArgs e)
+
+        Form1_1 f1;
+        private void zadanie1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            double x = Convert.ToDouble(tbX.Text);
-            int y = Convert.ToInt32(tbY.Text);
+            this.Hide();
 
-            lbCelling.Text = calc.celling(x).ToString();
-            lbFloor.Text = calc.floor(x).ToString();
-            lbFractional.Text = calc.frac(x).ToString();
-
-            int xx = Convert.ToInt32(x);
-            label4.Text = xx + " mod " + y;
-            lbModulo.Text = calc.modulo(xx,y).ToString();
+            //if (f1 == null)
+            //{
+                f1 = new Form1_1();
+                f1.FormClosed += f1_FormClosed;
+                f1.Show();
+            //}
+            //else
+            //{
+            //    f1.Activate();
+            //    f1.Show();
+            //}
+            
         }
+
+        Form2 f2;
+        private void zadanie2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+           
+                f2 = new Form2();
+                f2.FormClosed += f2_FormClosed;
+                f2.Show();
+                    
+            
+        }
+
+        Form3 f3;
+        private void zadanie3ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            f3 = new Form3();
+            f3.FormClosed += f3_FormClosed;
+            f3.Show();
+        }
+
+       
+
+        void f1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Show();
+        }
+        void f2_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Show();
+        } 
+        void f3_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Show();
+        }
+
+        
 
        
     }
