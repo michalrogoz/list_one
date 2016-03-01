@@ -1,0 +1,9 @@
+c:\users\mic\documents\visual studio 2015\Projects\bozejko_lab1\bozejko_lab1\bin\Debug\bozejko_lab1.exe.config
+c:\users\mic\documents\visual studio 2015\Projects\bozejko_lab1\bozejko_lab1\bin\Debug\bozejko_lab1.exe
+c:\users\mic\documents\visual studio 2015\Projects\bozejko_lab1\bozejko_lab1\bin\Debug\bozejko_lab1.pdb
+c:\users\mic\documents\visual studio 2015\Projects\bozejko_lab1\bozejko_lab1\obj\Debug\bozejko_lab1.csprojResolveAssemblyReference.cache
+c:\users\mic\documents\visual studio 2015\Projects\bozejko_lab1\bozejko_lab1\obj\Debug\bozejko_lab1.Form1.resources
+c:\users\mic\documents\visual studio 2015\Projects\bozejko_lab1\bozejko_lab1\obj\Debug\bozejko_lab1.Properties.Resources.resources
+c:\users\mic\documents\visual studio 2015\Projects\bozejko_lab1\bozejko_lab1\obj\Debug\bozejko_lab1.csproj.GenerateResource.Cache
+c:\users\mic\documents\visual studio 2015\Projects\bozejko_lab1\bozejko_lab1\obj\Debug\bozejko_lab1.exe
+c:\users\mic\documents\visual studio 2015\Projects\bozejko_lab1\bozejko_lab1\obj\Debug\bozejko_lab1.pdb
